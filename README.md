@@ -1,4 +1,6 @@
-## Цель задачи
+### Задание на проверку понимания принципов MVC, SoC, DRY и SOLID. Время выполнения не столь важно, как применение данных принципов.
+
+## Цель задания
 Запуск командой `./vendor/bin/codecept run` 3-х тестов должен завершиться без ошибок.
 
 ### Дано
@@ -16,9 +18,9 @@
 Формат ответа в json:
 ```
 [
-{city: "nur-sultan", type: "pickup", available: false, "price": 0.00},
-{city: "nur-sultan", type: "courier", available: true, "price": 9.99},
-{city: "nur-sultan", type: "post", available: true, "price": 15.99}
+  {city: "nur-sultan", type: "pickup", available: false, "price": 0.00},
+  {city: "nur-sultan", type: "courier", available: true, "price": 9.99},
+  {city: "nur-sultan", type: "post", available: true, "price": 15.99}
 ]
 ```
 ### Установка пакетов
