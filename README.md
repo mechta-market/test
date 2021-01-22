@@ -50,10 +50,10 @@ composer install
 
 ### Дано
 
-API endpoint: `/delivery/check`, 
-который принимает GET параметр `search` содержащий наименование города. 
+API endpoint: `https://qvjgl.mocklab.io/delivery/check`, 
+который принимает GET параметр `search` содержащий наименование города (nur-sultan, almaty, aktau).
 
-В результате возвращается ответ в JSON с информацией
+В результате возвращается ответ в JSON с данными
 о доступных типах доставки и их стоимости.
 
 Пример ответа:
@@ -65,5 +65,5 @@ API endpoint: `/delivery/check`,
 ]
 ```
 
-_Если выполняете только вторую часть задания, 
-используйте mock-server (например, приложение [Mockoon](https://mockoon.com/))_
+Верстку сделать по данному макету https://www.figma.com/file/XELsh1cS4fMPDqbPM49GUH/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5?node-id=0%3A1
+
